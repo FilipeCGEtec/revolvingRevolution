@@ -29,7 +29,7 @@ Processo de desenvolvimento
   
 | Métodos  | Definição |
 | ------------- | ------------- |
-| Morrer()  | Método que apaga o boneco da tela e notifica o jogo para terminar  |
+| Morrer()  | Método que apaga o jogador da tela da tela e notifica o jogo para terminar - ativado se passar do limite do perseguidor ou de tempo  |
 | Andar()  | Método que move o personagem pelo aixo X  |
 | AtacarVitima() | Método que leva a uma Vitima a perecer |
 
@@ -58,6 +58,11 @@ Processo de desenvolvimento
 | Marcar() | Ganha a definição de "Marcado" |
 | Perecer() | Destroi o corpo |
 | AcharJogador() | verifica a posição do jogador |
+
+| Métodos  | Definição |
+| ------------- | ------------- |
+| DefinirExistencia()  | Verifica se esta classe existe na fase |
+| REdefinirNumero() | Retorna um novo valor de angulo limite |
 
   #### Alma
   
