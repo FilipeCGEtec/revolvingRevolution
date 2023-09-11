@@ -16,12 +16,12 @@ Processo de desenvolvimento
 
 ## Casos de Uso:
 
-  <img src="cdu.png">
-  <img src="dcdu.png">
+  <img src="imagens/cdu.png">
+  <img src="imagens/dcdu.png">
   
 ## UML:
 
-  <img src="Imagens/uml.png">
+  <img src="imagens/uml.png">
   
   ### Definições das classes:
   
