@@ -1,5 +1,6 @@
 # Revolving Revolution
-
+# Feito por:
+Filipe Custodio Gonçalves - 2 Jogos Digitais
 <img src="https://i.ytimg.com/vi/UWnE9sCJEgw/maxresdefault.jpg">
 Oque é o projeto?
 Este projeto feito na linguagem de C# é um jogo feito com base nas músicas "Providence" e "give and Take" da banda Poor Man's Poison.
