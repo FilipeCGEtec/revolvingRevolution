@@ -97,7 +97,15 @@ Processo de desenvolvimento
 
 ## Alma
   "Alma" é a classe da pontuação do jogo. Seus métodos consistem na sua istancia toda vez que uma vitima morre e, sumir toda vez que entra em contato com o jogador. Esta deveria retornar um valor, oque resultaria em passar de fase, essa função foi trocada pela morte de 10 vitimas. No momento, almas são apenas decorativos.
-  
+
+## Fase
+  "Fase" é a classe que manipula a troca de fases do jogo. O metodo de troca de fases é ativado qunado se tem menosde 10 vitimas na cena. Com essa condição atingida, o jogador é deslocado para o mapa 2 e tem a classe de perseguidor ativada.
+
+## Perseguidor
+  O perseguidor é uma classe de um corpo imaginario, é ativado quando se chega a fase dois. O perseguidor tem a ação de matar o jogador quando o mesmo olha para um certo ângulo.
+
+## Script principal
+  O script porincipalconta com algumas funções importantes. Nele se encontram todas as condições para que os devidos métodos das devidas classes serem ativados. Ele é dividido em "Posicao" para o personagem, "almas" para as almas e "vitima" para as vitimas.  
 Você pode baixar o projeto clicando <a href="https://drive.google.com/drive/folders/1AWDNZcu8nhrJSBwHbYN5tXzaKRZJpAZV?usp=sharing">AQUI</a>
 
 Você pode ver o vídeo do projeto clicando <a href="https://www.youtube.com/watch?v=7Llk6MCayBM&t)https://www.youtube.com/watch?v=7Llk6MCayBM&t">AQUI</a>
