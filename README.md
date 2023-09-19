@@ -1,4 +1,4 @@
-# Reolving Revolution
+# Revolving Revolution
 
 <img src="https://i.ytimg.com/vi/UWnE9sCJEgw/maxresdefault.jpg">
 Oque é o projeto?
@@ -72,4 +72,31 @@ Processo de desenvolvimento
 | ColetarAlma()  | Verifica se à  contato com o jogador e retira a alma da tela  |
 | GerarPontuacao()  | Retorna uma pontuacao quando coletada |
 
+# Relatorio de desenvolvimento
+<img src="imagens/mapa1.png">
+
+  O projeto tem um total de 2 cenas, ambas com criterios diferentes. A cena 1 é a maior e mais complexa, é um mapa relativamente amplo, em que o objetivo do jogador é caçar suas vitimas. Ao matar 10 vítimas, a cena é trocada.
+  
+<img src="imagens/mapa2.png">
+
+  A cena 2 é bem mais simples. Um simples labirinto, com almas avulsas pelo chão. Para esta cena, o perseguidor fica ativo, impedindo que o jogador olhe para trás.
+
+<img src="imagens/cena2.png">
+<img src="imagens/cena2lab.png">
+
+## Jogador
+  "Jogador" é a classe do personagem principal. Essa classe possui como métodos principais a movimentação e o ataque a vitima. O método de manipulação manipula seus atributos de coordenadas em X e Z, um método de suporte para este é o de correr, que é ativado ao pressionar espaço. O metodo de ataque é ativado com uma tecla e quando está a uma certa distancia do alvo.
+  
+  <img src="imagens/jogador2.png">
+
+## Vitima
+  "Vitima" é a classe dos NPC. Sua função não é muito evidente, elas apenas ficam paradas até morrerem pelo jogador. Quando as vitimas são mortas, elas chamam a instancia de uma nova alma para o jogador coletar. originalmente as vitimas iriam ter funções mais complexas envolvendo sua rotação e a camera do jogador.
+  
+  <img src="imagens/vitima.png">
+
+## Alma
+  "Alma" é a classe da pontuação do jogo. Seus métodos consistem na sua istancia toda vez que uma vitima morre e, sumir toda vez que entra em contato com o jogador. Esta deveria retornar um valor, oque resultaria em passar de fase, essa função foi trocada pela morte de 10 vitimas. No momento, almas são apenas decorativos.
+  
 Você pode baixar o projeto clicando <a href="https://drive.google.com/drive/folders/1AWDNZcu8nhrJSBwHbYN5tXzaKRZJpAZV?usp=sharing">AQUI</a>
+
+Você pode ver o vídeo do projeto clicando <a href="https://www.youtube.com/watch?v=7Llk6MCayBM&t)https://www.youtube.com/watch?v=7Llk6MCayBM&t">AQUI</a>
