@@ -109,10 +109,10 @@ Processo de desenvolvimento
 
 ## Scripts não utilizados
   Seja por falta de conhecimento ou falta de tempo, estes scripts não puderam ser implementados no jogo
-    ### Pontuação:
-      A pontuação receberia +1 por toda alma coletada durante o jogo. A função foi trocada pela quantidades de vitimas mortas pois, eu não consegui fazer com que apontuação aumentasse corretamente.
-    ### Jogo:
-      A classe de jogo foi cortada. O jogo começãria um timer para matar as vitimas quando olhassem para você enquanto você olha para ela. Foi cortado pela dificuldade em fazer estas funções mais complexas.
+  ### Pontuação:
+  A pontuação receberia +1 por toda alma coletada durante o jogo. A função foi trocada pela quantidades de vitimas mortas pois, eu não consegui fazer com que apontuação aumentasse corretamente.
+  ### Jogo:
+  A classe de jogo foi cortada. O jogo começãria um timer para matar as vitimas quando olhassem para você enquanto você olha para ela. Foi cortado pela dificuldade em fazer estas funções mais complexas.
 
       
 Você pode baixar o projeto clicando <a href="https://drive.google.com/drive/folders/1AWDNZcu8nhrJSBwHbYN5tXzaKRZJpAZV?usp=sharing">AQUI</a>
