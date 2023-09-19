@@ -106,6 +106,15 @@ Processo de desenvolvimento
 
 ## Script principal
   O script porincipalconta com algumas funções importantes. Nele se encontram todas as condições para que os devidos métodos das devidas classes serem ativados. Ele é dividido em "Posicao" para o personagem, "almas" para as almas e "vitima" para as vitimas.  
+
+## Scripts não utilizados
+  Seja por falta de conhecimento ou falta de tempo, estes scripts não puderam ser implementados no jogo
+    ### Pontuação:
+      A pontuação receberia +1 por toda alma coletada durante o jogo. A função foi trocada pela quantidades de vitimas mortas pois, eu não consegui fazer com que apontuação aumentasse corretamente.
+    ### Jogo:
+      A classe de jogo foi cortada. O jogo começãria um timer para matar as vitimas quando olhassem para você enquanto você olha para ela. Foi cortado pela dificuldade em fazer estas funções mais complexas.
+
+      
 Você pode baixar o projeto clicando <a href="https://drive.google.com/drive/folders/1AWDNZcu8nhrJSBwHbYN5tXzaKRZJpAZV?usp=sharing">AQUI</a>
 
 Você pode ver o vídeo do projeto clicando <a href="https://www.youtube.com/watch?v=7Llk6MCayBM&t)https://www.youtube.com/watch?v=7Llk6MCayBM&t">AQUI</a>
